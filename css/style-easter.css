@@ -1,0 +1,741 @@
+/******** Header Styles ********/
+
+h1 {
+  font-family: 'apercumedium';
+
+  letter-spacing: .02em;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #1d1d1d;
+  text-transform: uppercase;
+}
+
+h4 {
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: 'apercubold'
+}
+
+h5 {
+  font-family: 'apercumedium';
+  color: #1d1d1d;
+}
+
+p {font-size: 2rem;}
+
+body {
+  font-family: 'apercumedium', sans-serif;
+
+}
+
+.column, .columns {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+.container-full-width {
+  width: 100%;
+}
+
+
+
+/****************** TOP BAR MENU **************************/
+
+
+
+@media (min-width: 320px) {
+/*  .header {
+    display: none;
+  }
+
+  .header ul{
+    display: none;
+  }*/
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0;
+    min-height: 35px;
+    padding: 10px;
+    background-color: white transparent;
+    letter-spacing: .2em;
+    z-index: 5;
+    display: block;
+}
+#mobile-menu {
+    background: url("/img/logo.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline-block;
+    float: center;
+    height: 30px;
+    width: 41px;
+    visibility: visible;
+  }
+
+
+}
+
+@media (min-width: 550px){
+/*  .header {
+    display: none;
+  }*/
+
+  .header.scrolling {
+    background-color: #1d1d1d;
+    height: 25px;
+}
+}
+
+@media (min-width: 675px){
+
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0;
+    min-height: 35px;
+    padding: 10px;
+    background-color: white transparent;
+    letter-spacing: .2em;
+    z-index: 5;
+    display: block;
+}
+
+#menu {
+  color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header.scrolling {
+    background-color: #1d1d1d;
+    height: 40px;
+}
+.header .brand {
+    display: inline-block;
+    font-size: 16px;
+}
+.header-ul {
+    list-style: none;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+
+
+}
+ .header-ul > li a{
+    font-family: "apercumedium";
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header-ul > li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    margin-top: -2px;
+    height:
+
+}
+
+.header-ul > li {
+    font-family: "apercumedium";
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+}
+.main {
+    height: 2000px;
+}
+
+}
+
+
+
+
+/************* SLIDER ***************/
+
+
+
+.slider h1 {
+  margin: 550px auto 0;
+  text-align: center;
+  color: white;
+  letter-spacing: .2em;
+}
+
+.slider h3 {
+  color: white;
+}
+
+.slider {
+  background: url(../img/easter.png) no-repeat center;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  position: relative;
+  background-attachment: scroll;
+  height: 715px;
+  background-position: center top;
+  }
+
+
+@media (min-width: 320px) {
+  .slider {
+  background: url(../img/easter.png) no-repeat center;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  position: relative;
+  background-attachment: scroll;
+  height: 600px;
+  background-position: center top;
+  }
+}
+
+.logo img{
+  vertical-align: center;
+  width: 100%;
+  margin: 5em auto 0;
+  display: block;
+}
+
+@media (min-width: 750px) {
+  .slider {
+  height: 825px;
+  }
+
+  .logo img{
+  vertical-align: center;
+  width: 100%;
+  margin: 6em auto;
+  display: block;
+}
+
+
+}
+
+/****************************************************************************
+******************************* EVENTS SECTION ********************************
+*****************************************************************************/
+
+/************* MIN-WIDTH   320PX ***************/
+@media (min-width: 320px) {
+
+  #events {
+  background-color: #F7CEC4;
+}
+    /**  FDDDD5 **/
+
+  #events h3 {
+    color: white;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-family: 'apercumedium';
+    margin-bottom: 3%;
+    width: 50%;
+    display: block;
+
+  }
+
+  #events img {
+    width: 90%;
+    display: block;
+    margin: 20% auto 10%;
+  }
+
+  #events strong {
+    font-family: 'apercumedium';
+  }
+
+  #events h5 {
+  margin-bottom: 0px;
+  font-family: 'apercuregular';
+  color: white;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+  #events h5.last {
+    margin-bottom: 7%;
+  }
+
+  #events h1, button {
+    text-align: center;
+  }
+
+/************* MIN-WIDTH   750PX ***************/
+@media (min-width: 750px) {
+
+#events h3 {
+  width: 100%;
+  margin-bottom: .76%;
+}
+
+#events h5 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#events h1,h3, h5, h6, p{
+  text-align: center;
+}
+
+#events h6 {
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+#events h6, p {
+  font-family: 'apercumedium';
+  color: black;
+}
+
+#events img {
+  display: block;
+  margin: 65px auto 25px;
+  max-width: 850px;
+  width: 70%;
+}
+
+#events h5.last {
+  margin-bottom: 25px;
+}
+
+}
+
+
+/****************************************************************************
+******************************* LIVE SECTION ********************************
+*****************************************************************************/
+
+@media (min-width: 320px) {
+  #live{
+  background: url(../img/philachurch.jpg) no-repeat center center ;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  position: relative;
+  height: 100%;
+  background-attachment: scroll;
+  background-position: center top;
+  }
+}
+
+#live h1 {
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+#live h3 {
+  font-family: 'apercumedium';
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+  text-transform: uppercase;
+}
+
+
+#live img {
+  vertical-align: middle;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+}
+
+
+/***************** Min-Width 750px ************/
+@media (min-width: 750px) {
+
+#live {
+  width: 100%;
+}
+
+#live img {
+    padding: 115px;
+    width: 15%;
+
+}
+
+#live h3 {
+  font-family: 'apercumedium';
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+}
+
+/***************** Min-Width 925px ************/
+
+
+@media (min-width: 925px) {
+  #live{
+    background-size: 100%;
+  }
+}
+
+
+
+
+/****************************************************************************
+******************************* BLOG SECTION ********************************
+*****************************************************************************/
+
+
+
+/********* min width:   320px ************/
+@media (min-width: 320px) {
+#blog .container .four.columns {
+    float:left;
+    width: 100%;
+  }
+
+#blog h1, button {
+    text-align: center;
+  }
+
+#blog h5 {
+  text-align: left;
+}
+
+#blog img {
+  margin: 0 auto 8%;
+  display: block;
+  width: 75%;
+}
+
+#blog .button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: block;
+  margin: 0 auto;
+}
+
+}
+
+
+/********* min width:   550px ************/
+@media (min-width: 550px) {
+
+#blog {
+  background-color: white;
+}
+
+#blog h1 {
+  text-align: left;
+  margin-top: 65px;
+}
+
+#blog h5 {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#blog img {
+  float: right;
+  margin-top: 75px;
+  width: 100%;
+}
+
+#blog .seven.columns {
+  padding: 0px;
+
+}
+
+#blog .five.columns {
+  margin-bottom: 100px;
+  float: right;
+  }
+
+#blog .button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: block;
+  margin: 0 auto 20%;
+}
+
+}
+
+/********* min width:   750px ************/
+@media (min-width: 750px) {
+  #blog .button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  float: left;
+}
+
+#blog .five.columns {
+  margin-bottom: 0;
+  float: right;
+  }
+
+}
+
+/********* min width:   925px ************/
+@media (min-width: 925px) {
+  #blog img {
+    width: 80%;
+    margin-bottom: 15%;
+  }
+}
+
+
+/****************************************************************************
+******************************* MINISTRIES SECTION **************************
+*****************************************************************************/
+
+@media (min-width: 320px) {
+  #ministries .button.button-white,
+button.button-white,
+input[type="submit"].button-white,
+input[type="reset"].button-white,
+input[type="button"].button-white {
+  float: left;
+}
+
+#ministries {
+  background: url(../img/mexico.jpg) no-repeat center center ;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  position: relative;
+  min-height: 600px;
+  background-attachment: scroll;
+  background-position: center top;
+  }
+
+#ministries h1 {
+  text-align: left;
+  color: white;
+  float: right;
+  margin: 3em 0 3rem 0;
+}
+
+#ministries h3,p {
+  text-align: center;
+  color: black;
+}
+
+#ministries h3 {
+  margin-top: 25px;
+}
+
+#ministries img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ministries .large-4 {
+  margin-bottom: 70px;
+}
+
+#ministries button {
+  float: right;
+}
+
+/********* min width:   550px ************/
+
+@media (min-width: 550px) {
+  #ministries h1 {
+    float: left;
+  }
+}
+
+/********* min width:   925px ************/
+
+@media (min-width: 925px) {
+  #ministries{
+    background-size: 100%;
+  }
+}
+
+
+
+
+/****************************************************************************
+******************************* YOUTH SECTION ********************************
+*****************************************************************************/
+
+@media (min-width: 320px) {
+
+#youth {
+  background-color: #F7F7F7;
+}
+
+#youth h1 {
+  text-align: center;
+  margin: 65px 0 40px;
+}
+
+#youth h4 {
+  margin-top: 0px;
+
+}
+
+#youth p {
+  text-align: left;
+}
+
+#youth img {
+  max-width: 300px;
+  width: 80%;
+  display: block;
+  margin: 0 auto 10%;
+}
+
+/********* min width:   550px ************/
+
+@media (min-width: 550px) {
+  #youth img {
+    width: 80%;
+    display: block;
+    margin: 0 auto 10%;
+  }
+
+  #youth h4 {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  display: block;
+  font-size: 1.6em;
+  }
+
+ #youth p {
+
+ }
+
+  }
+
+
+/********* min width:   750px ************/
+@media (min-width: 750px) {
+
+  #youth h1 {
+    margin-bottom: 2%;
+  }
+
+  #youth h4 {
+    font-size: 2.8rem;
+    margin-top: 7%;
+    margin-left: 2%;
+  }
+
+  #youth p {
+    margin-left: 2%;
+  }
+
+  #youth img {
+    margin: 0 auto 12%;
+    display: block;
+    width: 100%;
+  }
+}
+
+
+/******* FOOTER *********/
+
+
+
+#footer {
+}
+
+#footer h6 {
+  text-align: center;
+}
+
+#donate {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#social {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#facebook {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+#twitter {
+  width: 50px;
+  height: 45px;
+  margin: 0 10px;
+}
+
+#footer hr {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#footer p {
+  font-size: 8pt;
+  margin-top: 25px;
+}
+
+#facebook:hover {
+  content: url('../img/facebook-hover.png');
+}
+
+#twitter:hover {
+  content: url('../img/twitter-hover.png');
+}
+
+.eventtitle {
+  font-weight: bold;
+
+}
+
+@media (min-width: 1120px) {
+.slider {
+  background-size:100%;
+  height:100%;
+}
+}
+
+@media (min-width:1345px) {
+  .slider {
+  }
+}

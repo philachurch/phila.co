@@ -1,0 +1,106 @@
+/*! responsive-nav.js 1.0.34 by @viljamis */
+
+.nav-collapse ul {
+  margin-top: 20px;
+  padding: 0;
+  width: 25%;
+  display: block;
+  text-decoration: none;
+  float: left;
+  height: 195px;
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  text-decoration: none;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  background-color: white;
+  color: #1d1d1d;
+  text-decoration: none;
+  text-align: left;
+  width: 125px;
+  float: left;
+  margin-top: 45px;
+  margin-left: -125px;
+}
+
+.nav-collapse.opened a {
+  color: #1d1d1d;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15px;
+  text-transform: uppercase;
+  height: 190px;
+  font-size: 1.6rem;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  width: 100px;
+  float: left;
+  background: url("img/menu-icon.gif");
+  color: white;
+  text-transform: uppercase;
+  padding: 3%;
+  font-size: 2.4rem;
+  letter-spacing: .02rem;
+  z-index: 999;
+}
+
+.nav-toggle.hover {
+  color: black
+}
+.nav-toggle.active {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+    text-decoration: none;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+    text-decoration: none;
+  }
+  .nav-toggle {
+    display: none;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-collapse {
+    display: none;
+  }
+
+  .js .nav-collapse.closed {
+    display: none;
+  }
